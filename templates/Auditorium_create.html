@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
+    <title>Auditorium_create</title>
+    <script src="Connection_to_back.js"></script>
+</head>
+<body>
+<script src="Connection_to_back.js"></script>
+<div class="header">
+    <a href="index.html"><img src="images/Logo.png" alt=""></a>
+    <div class="header-right">
+        <a href="Registration.html">Registration</a>
+        <a href="Login.html">Login</a>
+        <a href="About.html">About</a>
+        <a href="Profile.html">Profile</a>
+        <a href="List_of_users.html">List of users</a>
+        <a href="Auditoriums.html">Auditoriums</a>
+        <a href="Reservation.html">Make a reservation</a>
+        <a href="index.html">Logout</a>
+    </div>
+</div>
+<div class="container">
+    <div class="container3">
+        <h1>Register auditorium</h1>
+        <p>Please fill in this form to register auditorium.</p>
+        <hr>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+        <label for="description"><b>Description</b></label>
+        <input type="description" placeholder="Enter Description" name="description" id="description" required>
+
+        <hr>
+
+        <!--<button type="submit" class="btn">Login</button>-->
+
+        <a href="Auditoriums.html"><button type="submit" class="btn"  onclick=createAuditorium()>Login</button></a>
+    </div>
+</div>
+</body>
+</html>
